@@ -7,7 +7,7 @@
           "label": "DS Store Delete",
           "submenu": [
             {
-              "label": "Delete",
+              "label": "Search and delete",
               "command": "ds-store-delete:delete"
             }
           ]
