@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "DS Store Delete",
+          "submenu": [
+            {
+              "label": "Delete",
+              "command": "ds-store-delete:delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

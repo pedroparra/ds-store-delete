@@ -1,0 +1,34 @@
+{
+  "name": "ds-store-delete",
+  "main": "./lib/ds-store-delete",
+  "version": "0.1.0",
+  "description": "Atom plugin for delete ds store files in project easily",
+  "private": true,
+  "author": {
+    "name": "Pedro J. Parra Cantero",
+    "email": "pedroparra.correo@gmail.com"
+  },
+  "keywords": [
+    "dsstore",
+    "ds",
+    "store",
+    "delete",
+    "remove"
+  ],
+  "activationCommands": {
+    "atom-workspace": "ds-store-delete:delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroparra/ds-store-delete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedroparra/ds-store-delete/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
