@@ -18,10 +18,7 @@
   "activationCommands": {
     "atom-workspace": "ds-store-delete:delete"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pedroparra/ds-store-delete.git"
-  },
+  "repository": "https://github.com/pedroparra/ds-store-delete.git",
   "bugs": {
     "url": "https://github.com/pedroparra/ds-store-delete/issues"
   },
