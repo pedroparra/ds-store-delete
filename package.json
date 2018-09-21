@@ -1,7 +1,7 @@
 {
   "name": "ds-store-delete",
   "main": "./lib/ds-store-delete",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom plugin for delete ds store files in project easily",
   "private": true,
   "author": {
@@ -29,6 +29,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
