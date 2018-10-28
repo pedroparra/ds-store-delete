@@ -1,7 +1,7 @@
 DS Store Delete
 ==========
 
-- Atom plugin for delete .ds_store files in project easily
+- Atom plugin for delete .ds_store or any files in project easily
 
 Installation
 ------------
