@@ -1,13 +1,14 @@
 'use babel'
 
 import shell from 'shell'
+import searchFiles from './searchFiles'
 
 export const deleteFiles = (pathsToRemove = []) => {
-  console.log('DELETE FILES')
   // shell electon method
   pathsToRemove.map(path => shell.moveItemToTrash(path))
 }
 
 export default () => {
-  deleteFiles()
+  const files = searchFiles()
+  deleteFiles(files)
 }
