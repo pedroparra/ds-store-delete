@@ -1,7 +1,18 @@
-#ds-store-delete-status-bar-container:hover {
-  background-color: fade(@syntax-color-removed, 20%);
-}
+#ds-store-delete-status-bar-container {
+  padding: 0 0.75em;
+  display: inline-block;
 
-#ds-store-delete-status-bar-button {
-  color: @syntax-color-removed;
+  &:hover {
+    background-color: fade(@syntax-color-removed, 20%);
+  }
+
+  span {
+    margin-right: 0.25em;
+    color: @syntax-color-removed;
+    &.icon {
+      font-size: 10px;
+      line-height: 1;
+    }
+  }
+
 }
