@@ -1,17 +1,18 @@
-DS Store Delete
-==========
+# DS Store Delete
 
-- Atom plugin for delete .ds_store or any files in project easily
+Atom plugin for delete .ds_store or any files in project easily
 
-Installation
-------------
-Open **Settings** → **Install** and search for `ds-store-delete`.
+![](preview.png)
 
-Alternatively, install through command-line:
+## Install
 
-	apm install ds-store-delete
+```
+$ apm install ds-store-delete
+```
+
+Or, Settings → Install → Search for `ds store`
 
 
-Usage
-------------
-Pressing the keys ctrl + alt + x.
+## License
+
+MIT © [Pedro Parra]
